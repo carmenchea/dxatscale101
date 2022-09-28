@@ -1,0 +1,53 @@
+{
+  "appPageId" : "819cf9e6-a5d8-47f8-aa06-d8b14a0496e6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "id" : "db06628b-12ed-4256-85b8-f5f02c4b681c",
+  "label" : "User Settings",
+  "regions" : [ {
+    "id" : "499e0322-013a-47c1-aded-0aa5b7652623",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "accountSectionTitle" : "Account",
+        "accountTabName" : "Account Management",
+        "connectedSourcesTabName" : "Connected Sources",
+        "deleteAccountButtonTitle" : "Deactivate My Account",
+        "deleteAccountConfirmationPopupBody" : "After you deactivate your account, you'll lose access to this site.",
+        "deleteAccountConfirmationPopupButtonTitle" : "Got It",
+        "deleteAccountConfirmationPopupTitle" : "Deactivate your account?",
+        "deleteAccountErrorMessage" : "Something went wrong. Contact your site administrator.",
+        "deleteAccountSectionTitle" : "Deactivate Account",
+        "emailNotificationsTitle" : "Email Notifications",
+        "emailSectionDescText" : "When email notifications are enabled, email me when someone:",
+        "hideAccountDeleteSection" : true,
+        "hideChatterNotificationSettings" : true,
+        "hideConnectedSources" : false,
+        "hideEmailNotificationSettings" : false,
+        "hideProfileVisibilitySettings" : true,
+        "id" : "{!recordId}",
+        "locationTitle" : "Location",
+        "profileSectionDescText" : "Customize who is able to see what on your profile page",
+        "profileSectionToolTipText" : "Restricted: Visible to the employees of the company that created the site. Members: Visible to logged-in members. Public: Visible to anyone viewing pages that don't require login.",
+        "profileVisibilityTitle" : "Profile Visibility",
+        "settingsPageTitle" : "My Settings"
+      },
+      "componentName" : "forceCommunity:userSettingsCustomizable",
+      "id" : "5a72d4f7-6d03-4542-9b9e-5a742ee8ad3f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "13b8b0bc-6ad1-4881-8cb3-7859eca188fc",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "e68c3ebd-8d6e-4e14-8b17-6fdfb5553a97",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}
