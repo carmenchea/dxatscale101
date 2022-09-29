@@ -1,26 +1,48 @@
 {
-  "packageDirectories": [
-    {
-      "path": "dreamhouse-app",
-      "default": true,
-      "dependencies": [
+    "packageDirectories": [
         {
-          "package": "dxatscale-base"
+            "path": "dreamhouse-app",
+            "default": true,
+            "dependencies": [
+                {
+                    "package": "dxatscale-base"
+                },
+                {
+                    "package": "LWCC"
+                },
+                {
+                    "package": "flowmagic"
+                },
+                {
+                  "package": "dreamhouse-data-model",
+                  "versionNumber": "0.1.0.LATEST"
+                }
+            ],
+            "package": "dreamhouse-app",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
         },
         {
-          "package": "LWCC"
+            "path": "src-env-specific",
+            "package": "env-specific",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.0"
         },
         {
-          "package": "flowmagic"
+            "path": "dreamhouse-data-model",
+            "package": "dreamhouse-data-model",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
-      ]
+    ],
+    "namespace": "",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "dxatscale-base": "04t6F000001ZL7yQAG",
+        "LWCC": "04t5I000001ecttQAA",
+        "flowmagic": "04t6F000001D6LOQA0",
+        "dreamhouse-app": "0Ho5h0000004CHvCAM",
+        "dreamhouse-data-model": "0Ho5h0000004CI5CAM"
     }
-  ],
-  "namespace": "",
-  "sourceApiVersion": "52.0",
-  "packageAliases": {
-    "dxatscale-base": "04t6F000001ZL7yQAG",
-    "LWCC": "04t5I000001ecttQAA",
-    "flowmagic": "04t6F000001D6LOQA0"
-  }
 }
